@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{a}}</text></view><button bindtap="{{b}}">点击</button><text>总共购买的水果数量{{c}}</text><view wx:for="{{d}}" wx:for-item="item" wx:key="c"><text>{{item.a}}</text><text>{{item.b}}</text></view></view>
