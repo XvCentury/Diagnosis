@@ -2,7 +2,11 @@
   "pages": [
     "pages/index/index",
     "pages/order/index",
-    "pages/user/index"
+    "pages/user/index",
+    "pages/search/index",
+    "pages/hospital/index",
+    "pages/service/index",
+    "pages/clients/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -35,5 +39,9 @@
       }
     ]
   },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseAddress"
+  ],
   "usingComponents": {}
 }
